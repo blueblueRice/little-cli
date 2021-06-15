@@ -1,0 +1,31 @@
+{
+  "name": "little-cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bbr-cli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueblueRice/little-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "bluebluerice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueblueRice/little-cli/issues"
+  },
+  "homepage": "https://github.com/blueblueRice/little-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.1.0"
+  }
+}
